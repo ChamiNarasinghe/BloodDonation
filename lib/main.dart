@@ -1,4 +1,5 @@
 
+import 'package:blood_donation_app/Authentication/ForgotPassword.dart';
 import 'package:blood_donation_app/Authentication/Login.dart';
 import 'package:blood_donation_app/Authentication/Registration.dart';
 import 'package:blood_donation_app/Welcome/WelcomePage.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/register': (context) => RegistrationScreen(),
         '/login':(context) => LoginScreen(),
+        '/forgotPassword':(context) => ForgotPasswordScreen(),
       },
     );
   }
