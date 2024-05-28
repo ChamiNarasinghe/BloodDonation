@@ -1,5 +1,5 @@
 
-import 'package:blood_donation_app_mad4/Welcome/WelcomePage.dart';
+import 'package:blood_donation_app/Welcome/WelcomePage.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
