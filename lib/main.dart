@@ -1,6 +1,7 @@
-import 'package:blood_donation_app_mad4/Authentication/Login.dart';
-import 'package:blood_donation_app_mad4/Authentication/Registration.dart';
-import 'package:blood_donation_app_mad4/Welcome/WelcomePage.dart';
+
+import 'package:blood_donation_app/Authentication/Login.dart';
+import 'package:blood_donation_app/Authentication/Registration.dart';
+import 'package:blood_donation_app/Welcome/WelcomePage.dart';
 import 'package:flutter/material.dart';
 
 
