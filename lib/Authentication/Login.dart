@@ -1,5 +1,3 @@
-
-
 import 'package:blood_donation_app/Authentication/Registration.dart';
 import 'package:flutter/material.dart';
 
@@ -167,7 +165,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(height: 8.0),
                     TextButton(
                       onPressed: () {
-                        // Handle forgot password logic here
+                        Navigator.pushNamed(context, '/forgotPassword');
                       },
                       child: Text(
                         'Forgot Password',
@@ -207,7 +205,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         TextButton(
                           onPressed: () {
-                            // Navigate to the sign-up screen
+                            Navigator.pushNamed(context, '/register');
                           },
                           child: Text(
                             'Sign Up',
